@@ -13,6 +13,7 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
     public class cls_personaDAO
     {
         cls_conexion Miconexion;
+        cls_personaBO obj_per = new cls_personaBO();
 
         public cls_personaDAO()
         {
@@ -24,11 +25,11 @@ namespace Beta3_WS_PROYECTO_FINAL.DAO
             return Miconexion.EjercutarSentecia(ComandoSQL);
         }
 
-        /*public int AgregarDt(cls_personaBO obj_persona)
+        public int AgregarDt(cls_personaBO obj_persona)
         {
-            String ComandoSQL = string.Format("INSERT INTO  persona (matricula,Nombre,Apellido_Paterno,Apellido_Materno,Correo_Electronico,Telefono,Genero)VALUES ({0},'{1}','{2}',{3},'{4}','{5}',{6},{7});", obj_alumbo.Matricula, obj_alumbo.Nombre, obj_alumbo.Apellido, obj_alumbo.Id_div, obj_alumbo.Fechanac.ToString("yyyy-MM-dd HH:mm:ss"));
+            String ComandoSQL = string.Format("INSERT INTO  persona (matricula,Nombre,Apelido_Paterno,Apelido_Materno,Correo_Electronico,Telefono,Genero,tipo_persona,id_usuario,Idequipo,Idconvocatoria)VALUES ({0},'{1}','{2}',{3},'{4}','{5}',{6},{7});", obj_alumbo.Matricula, obj_alumbo.Nombre, obj_alumbo.Apellido, obj_alumbo.Id_div, obj_alumbo.Fechanac.ToString("yyyy-MM-dd HH:mm:ss"));
             return Miconexion.EjecutarComando(ComandoSQL);
-        }*/
+        }
 
     }
 }
