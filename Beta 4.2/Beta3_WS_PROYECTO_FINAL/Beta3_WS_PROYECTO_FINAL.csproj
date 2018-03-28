@@ -88,6 +88,7 @@
     <Compile Include="DAO\cls_conexion.cs" />
     <Compile Include="DAO\cls_personaDAO.cs" />
     <Compile Include="DAO\Cls_prueba.cs" />
+    <Compile Include="DAO\Cls_prueba2.cs" />
     <Compile Include="GUI\frm_principal.cs">
       <SubType>Form</SubType>
     </Compile>
