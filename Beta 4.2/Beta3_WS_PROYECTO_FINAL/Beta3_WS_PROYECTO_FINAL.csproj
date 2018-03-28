@@ -67,7 +67,6 @@
     <Compile Include="BO\BO_Admin\cls_arbitroBO.cs" />
     <Compile Include="BO\BO_Admin\cls_carreraBO.cs" />
     <Compile Include="BO\BO_Admin\cls_convocatoriaBO.cs" />
-    <Compile Include="BO\Clsbryan.cs" />
     <Compile Include="BO\cls_divisionBO.cs" />
     <Compile Include="BO\cls_equipoBO.cs" />
     <Compile Include="BO\cls_equipo_partido.cs" />
@@ -88,7 +87,6 @@
     <Compile Include="DAO\cls_conexion.cs" />
     <Compile Include="DAO\cls_PartidosDAO.cs" />
     <Compile Include="DAO\cls_personaDAO.cs" />
-    <Compile Include="DAO\f.cs" />
     <Compile Include="GUI\frm_principal.cs">
       <SubType>Form</SubType>
     </Compile>
