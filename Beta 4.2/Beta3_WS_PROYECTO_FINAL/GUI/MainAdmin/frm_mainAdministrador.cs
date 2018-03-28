@@ -44,5 +44,10 @@ namespace Beta3_WS_PROYECTO_FINAL.GUI.MainAdmin
             moveTOG = 0;
 
         }
+
+        private void uC_cuenta_administrador1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

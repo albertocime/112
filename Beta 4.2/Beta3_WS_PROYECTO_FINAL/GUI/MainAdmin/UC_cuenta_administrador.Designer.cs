@@ -46,12 +46,12 @@
             this.btn_ver_part = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_ver_estad = new Bunifu.Framework.UI.BunifuFlatButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_ver_equip = new Bunifu.Framework.UI.BunifuFlatButton();
             this.grp_general_cntrol = new System.Windows.Forms.GroupBox();
             this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btn_ver_equip = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuElipse7 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.groupBox1.SuspendLayout();
             this.grp_general_cntrol.SuspendLayout();
@@ -130,10 +130,10 @@
             this.btn_addDT_Admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
             this.btn_addDT_Admin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addDT_Admin.BorderRadius = 0;
-            this.btn_addDT_Admin.ButtonText = "Ver Directores Técnicos";
+            this.btn_addDT_Admin.ButtonText = "Ver dDirectores Técnicos";
             this.btn_addDT_Admin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_addDT_Admin.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_addDT_Admin.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_addDT_Admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addDT_Admin.Iconcolor = System.Drawing.Color.Transparent;
             this.btn_addDT_Admin.Iconimage = null;
             this.btn_addDT_Admin.Iconimage_right = null;
@@ -155,7 +155,7 @@
             this.btn_addDT_Admin.selected = false;
             this.btn_addDT_Admin.Size = new System.Drawing.Size(160, 46);
             this.btn_addDT_Admin.TabIndex = 36;
-            this.btn_addDT_Admin.Text = "Ver Directores Técnicos";
+            this.btn_addDT_Admin.Text = "Ver dDirectores Técnicos";
             this.btn_addDT_Admin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_addDT_Admin.Textcolor = System.Drawing.Color.White;
             this.btn_addDT_Admin.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -170,7 +170,7 @@
             this.btn_addAdmin_Admin.ButtonText = "Ver Administradores";
             this.btn_addAdmin_Admin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_addAdmin_Admin.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_addAdmin_Admin.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_addAdmin_Admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addAdmin_Admin.Iconcolor = System.Drawing.Color.Transparent;
             this.btn_addAdmin_Admin.Iconimage = null;
             this.btn_addAdmin_Admin.Iconimage_right = null;
@@ -207,7 +207,7 @@
             this.btn_addORG_Admin.ButtonText = "Ver Organizadores";
             this.btn_addORG_Admin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_addORG_Admin.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_addORG_Admin.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_addORG_Admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addORG_Admin.Iconcolor = System.Drawing.Color.Transparent;
             this.btn_addORG_Admin.Iconimage = null;
             this.btn_addORG_Admin.Iconimage_right = null;
@@ -259,7 +259,7 @@
             this.btn_ver_conv.ButtonText = "Ver convocatorias";
             this.btn_ver_conv.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ver_conv.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_ver_conv.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ver_conv.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ver_conv.Iconcolor = System.Drawing.Color.Transparent;
             this.btn_ver_conv.Iconimage = null;
             this.btn_ver_conv.Iconimage_right = null;
@@ -295,7 +295,7 @@
             this.btn_ver_part.ButtonText = "Ver partidos";
             this.btn_ver_part.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ver_part.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_ver_part.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ver_part.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ver_part.Iconcolor = System.Drawing.Color.Transparent;
             this.btn_ver_part.Iconimage = null;
             this.btn_ver_part.Iconimage_right = null;
@@ -331,7 +331,7 @@
             this.btn_ver_estad.ButtonText = "Ver estadísticas";
             this.btn_ver_estad.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ver_estad.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_ver_estad.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ver_estad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ver_estad.Iconcolor = System.Drawing.Color.Transparent;
             this.btn_ver_estad.Iconimage = null;
             this.btn_ver_estad.Iconimage_right = null;
@@ -364,51 +364,13 @@
             this.groupBox1.Controls.Add(this.btn_addDT_Admin);
             this.groupBox1.Controls.Add(this.btn_addAdmin_Admin);
             this.groupBox1.Controls.Add(this.btn_addORG_Admin);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(457, 14);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(770, 100);
             this.groupBox1.TabIndex = 42;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Personal administrativo";
-            // 
-            // grp_general_cntrol
-            // 
-            this.grp_general_cntrol.Controls.Add(this.btn_ver_conv);
-            this.grp_general_cntrol.Controls.Add(this.btn_ver_part);
-            this.grp_general_cntrol.Controls.Add(this.btn_ver_estad);
-            this.grp_general_cntrol.Font = new System.Drawing.Font("Century Gothic", 15.75F);
-            this.grp_general_cntrol.Location = new System.Drawing.Point(767, 135);
-            this.grp_general_cntrol.Name = "grp_general_cntrol";
-            this.grp_general_cntrol.Size = new System.Drawing.Size(460, 226);
-            this.grp_general_cntrol.TabIndex = 43;
-            this.grp_general_cntrol.TabStop = false;
-            this.grp_general_cntrol.Text = "Administracion general";
-            // 
-            // bunifuElipse4
-            // 
-            this.bunifuElipse4.ElipseRadius = 9;
-            this.bunifuElipse4.TargetControl = this.btn_ver_conv;
-            // 
-            // bunifuElipse5
-            // 
-            this.bunifuElipse5.ElipseRadius = 9;
-            this.bunifuElipse5.TargetControl = this.btn_ver_estad;
-            // 
-            // bunifuElipse6
-            // 
-            this.bunifuElipse6.ElipseRadius = 9;
-            this.bunifuElipse6.TargetControl = this.btn_ver_part;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(457, 135);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(293, 226);
-            this.groupBox2.TabIndex = 44;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Informacion";
             // 
             // btn_ver_equip
             // 
@@ -419,7 +381,7 @@
             this.btn_ver_equip.ButtonText = "Ver Equipos";
             this.btn_ver_equip.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ver_equip.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_ver_equip.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ver_equip.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ver_equip.Iconcolor = System.Drawing.Color.Transparent;
             this.btn_ver_equip.Iconimage = null;
             this.btn_ver_equip.Iconimage_right = null;
@@ -445,6 +407,44 @@
             this.btn_ver_equip.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_ver_equip.Textcolor = System.Drawing.Color.White;
             this.btn_ver_equip.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // grp_general_cntrol
+            // 
+            this.grp_general_cntrol.Controls.Add(this.btn_ver_conv);
+            this.grp_general_cntrol.Controls.Add(this.btn_ver_part);
+            this.grp_general_cntrol.Controls.Add(this.btn_ver_estad);
+            this.grp_general_cntrol.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.grp_general_cntrol.Location = new System.Drawing.Point(767, 135);
+            this.grp_general_cntrol.Name = "grp_general_cntrol";
+            this.grp_general_cntrol.Size = new System.Drawing.Size(460, 226);
+            this.grp_general_cntrol.TabIndex = 43;
+            this.grp_general_cntrol.TabStop = false;
+            this.grp_general_cntrol.Text = "Administracion general";
+            // 
+            // bunifuElipse4
+            // 
+            this.bunifuElipse4.ElipseRadius = 9;
+            this.bunifuElipse4.TargetControl = this.btn_ver_conv;
+            // 
+            // bunifuElipse5
+            // 
+            this.bunifuElipse5.ElipseRadius = 9;
+            this.bunifuElipse5.TargetControl = this.btn_ver_estad;
+            // 
+            // bunifuElipse6
+            // 
+            this.bunifuElipse6.ElipseRadius = 9;
+            this.bunifuElipse6.TargetControl = this.btn_ver_part;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(457, 135);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(293, 226);
+            this.groupBox2.TabIndex = 44;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Informacion";
             // 
             // bunifuElipse7
             // 

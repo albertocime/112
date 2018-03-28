@@ -245,6 +245,7 @@
             this.uC_cuenta_administrador1.Name = "uC_cuenta_administrador1";
             this.uC_cuenta_administrador1.Size = new System.Drawing.Size(1230, 490);
             this.uC_cuenta_administrador1.TabIndex = 3;
+            this.uC_cuenta_administrador1.Load += new System.EventHandler(this.uC_cuenta_administrador1_Load);
             // 
             // frm_mainAdministrador
             // 
