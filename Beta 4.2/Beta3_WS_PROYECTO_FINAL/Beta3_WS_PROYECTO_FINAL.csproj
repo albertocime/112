@@ -67,6 +67,7 @@
     <Compile Include="BO\BO_Admin\cls_arbitroBO.cs" />
     <Compile Include="BO\BO_Admin\cls_carreraBO.cs" />
     <Compile Include="BO\BO_Admin\cls_convocatoriaBO.cs" />
+    <Compile Include="BO\Clsbryan.cs" />
     <Compile Include="BO\cls_divisionBO.cs" />
     <Compile Include="BO\cls_equipoBO.cs" />
     <Compile Include="BO\cls_equipo_partido.cs" />
