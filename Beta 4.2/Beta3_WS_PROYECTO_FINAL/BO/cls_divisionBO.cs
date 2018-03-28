@@ -10,7 +10,7 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
     {
         private int id_division;
         private string nombre_division;
-        private string tipo_division;
+        private string tipo_division;//
 
         public int Id_division
         {
