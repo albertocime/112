@@ -17,7 +17,7 @@ namespace Beta3_WS_PROYECTO_FINAL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_mainAdministrador());
+            Application.Run(new frm_principal());
         }
     }
 }
