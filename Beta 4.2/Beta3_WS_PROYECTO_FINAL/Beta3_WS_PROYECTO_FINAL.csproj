@@ -79,7 +79,6 @@
     <Compile Include="BO\BO_Admin\cls_instalacion_partidosBO.cs" />
     <Compile Include="BO\cls_jugadoresBO.cs" />
     <Compile Include="BO\BO_Admin\cls_partidoBO.cs" />
-    <Compile Include="BO\cls_perfilBO.cs" />
     <Compile Include="BO\BO_Admin\cls_personaBO.cs" />
     <Compile Include="BO\BO_Admin\cls_torneoBO.cs" />
     <Compile Include="BO\BO_Admin\cls_torneo_instalacionBO.cs" />

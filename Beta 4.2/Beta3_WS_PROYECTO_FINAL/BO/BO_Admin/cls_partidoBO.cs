@@ -15,12 +15,82 @@ namespace Beta3_WS_PROYECTO_FINAL.BO
         private string resultado_partido;
         private int id_arbitro;
 
-        //
-        public int Id_partido { get => id_partido; set => id_partido = value; }
-        public DateTime Hora_inicio { get => hora_inicio; set => hora_inicio = value; }
-        public DateTime Hora_fin { get => hora_fin; set => hora_fin = value; }
-        public DateTime Dia_partido { get => dia_partido; set => dia_partido = value; }
-        public string Resultado_partido { get => resultado_partido; set => resultado_partido = value; }
-        public int Id_arbitro { get => id_arbitro; set => id_arbitro = value; }
+        public int Id_partido
+        {
+            get
+            {
+                return id_partido;
+            }
+
+            set
+            {
+                id_partido = value;
+            }
+        }
+
+        public DateTime Hora_inicio
+        {
+            get
+            {
+                return hora_inicio;
+            }
+
+            set
+            {
+                hora_inicio = value;
+            }
+        }
+
+        public DateTime Hora_fin
+        {
+            get
+            {
+                return hora_fin;
+            }
+
+            set
+            {
+                hora_fin = value;
+            }
+        }
+
+        public DateTime Dia_partido
+        {
+            get
+            {
+                return dia_partido;
+            }
+
+            set
+            {
+                dia_partido = value;
+            }
+        }
+
+        public string Resultado_partido
+        {
+            get
+            {
+                return resultado_partido;
+            }
+
+            set
+            {
+                resultado_partido = value;
+            }
+        }
+
+        public int Id_arbitro
+        {
+            get
+            {
+                return id_arbitro;
+            }
+
+            set
+            {
+                id_arbitro = value;
+            }
+        }
     }
 }
